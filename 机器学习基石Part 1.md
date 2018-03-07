@@ -1,4 +1,7 @@
-# 机器学习基石
+# 机器学习基石Part 1   
+
+<sub>*Why can Machine Learning work*</sub>   
+
 ## The Learning Problem    
 1. 适用机器学习的条件  
     * 存在范式
@@ -42,3 +45,16 @@
 2. 多维perceptron的VC维
    * 1D perceptron的VC维=2
    * 2D perceptron的VC维=3 
+3. 证明d(vc)=d+1
+   * d(vc)>=d+1：存在d+1个inputs，可以shatter，此时数据矩阵为d+1*d+1的方阵
+   * d(vc)<=d+1：任意d+2个inputs都不能shatter，此时数据矩阵为行d+2*d+1列的长条阵（ *注：此时均考虑没有noise和error的情况，即当行数大于列数时，矩阵对应的线性方程组是相容的，不会出现矛盾的情况，从而多出的一行均可由其他行的线性组合来表示*）
+   * shatter可理解成数据矩阵可逆
+4. VC维的物理意义：二元分类的有效自由度个数/假设集中有效假设的个数
+5. VC维进一步解释
+   * Penalty for Model Complexity
+   * Sample Complexity:
+      * 理论上，数据量N约等于10,000*d(vc)，可取得误差上界
+      * 实际中，N约等于10*d(vc)够用了
+      * 因为考虑到任意分布、数据等，VC bound相对于实际的bound比较宽松
+
+## Noise and Error
