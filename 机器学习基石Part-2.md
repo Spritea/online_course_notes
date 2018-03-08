@@ -19,4 +19,6 @@
    * 好的步长应该和梯度的模正相关
    * Fixed Learning Rate=步长/该处梯度的模
 ## Linear Models for Classification
-1. Binary Classification
+1. Binary Classification:用Linear/Logistic Regression来做二分类
+   * 线性回归用来初始化PLA/pocket/logistic regression的w_0
+   * 人们偏向于logistic regression，而不是pocket
