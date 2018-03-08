@@ -66,4 +66,5 @@
    * classification error, for classification
    * squared error, for regression 
    * P(y|x)和error measure定义了ideal mini-target f(x)
+4. Algorithmic Error Measure/Weighted Classification
    
