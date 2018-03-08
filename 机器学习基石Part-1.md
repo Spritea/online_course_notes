@@ -1,6 +1,6 @@
 # 机器学习基石Part 1   
 
-<sub>*Why can Machine Learning work*</sub>   
+<sub>*Why can Machines Learn*</sub>   
 
 ## The Learning Problem    
 1. 适用机器学习的条件  
