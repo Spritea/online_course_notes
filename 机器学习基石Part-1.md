@@ -56,5 +56,14 @@
       * 理论上，数据量N约等于10,000*d(vc)，可取得误差上界
       * 实际中，N约等于10*d(vc)够用了
       * 因为考虑到任意分布、数据等，VC bound相对于实际的bound比较宽松
-
 ## Noise and Error
+1. Target Distribution P(y|x), VC仍然有用
+2. Error Measure
+   * out-of-sample
+   * pointwise
+   * classification or 0/1
+3. Pointwise Error Measures
+   * classification error, for classification
+   * squared error, for regression 
+   * P(y|x)和error measure定义了ideal mini-target f(x)
+   
