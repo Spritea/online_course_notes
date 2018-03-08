@@ -39,20 +39,20 @@ Tip：OpenCV可以做了，但输出是整幅图的每个像素的标签，需�
 ### 环境配置
 1. 程序执行完后还能显示变量
 <div  align="center">    
-<img src="pycharm_1.1.png" alt="图片名称" align=center />
+<img src="pycharm_1.1.PNG" alt="图片名称" align=center />
 </div>   
 <br />
 <div  align="center">    
-<img src="pycharm_1.png" alt="图片名称" align=center />
+<img src="pycharm_1.PNG" alt="图片名称" align=center />
 </div> 
 
 <div STYLE="page-break-after: always;"></div>
 
 2. 编辑器中，让代码在顶端，下面有大片空白
 <div  align="center">    
-<img src="pycharm_2.1.png" alt="图片名称" align=center />
+<img src="pycharm_2.1.PNG" alt="图片名称" align=center />
 </div>  
 <br />
 <div  align="center">    
-<img src="pycharm_2.png" alt="图片名称" align=center />
+<img src="pycharm_2.PNG" alt="图片名称" align=center />
 </div>  
