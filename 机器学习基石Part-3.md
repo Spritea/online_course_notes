@@ -11,4 +11,12 @@
    * data cleaning/data pruning
    * data hinting: virtual example not i.i.d. P(x,y)
 ## Regularization
-1.
+1. Regularized hypothesis Set
+   * Regression with Looser Constraint/直接控制多项式阶数: NP hard
+   * Regression with Softer Constraint/控制多项式各项系数的大小
+2. Weighted Decay Regularization
+   * Lagrange乘子做带限优化，最优解为ridge regression
+   * regularization with Augmented Error, instead of constrainted E_in
+   * a little regularization goes a long way
+   * 多项式用Legendre polynomial=正交基底函数
+3. Regularization and VC Theory
