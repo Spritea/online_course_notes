@@ -29,4 +29,18 @@
    * cons: less stable in nature
    * SGD logistic regression 约= 'soft' PLA
 3. Multiclass via Logistic
-
+   * One Class at a Time Softly
+   * 1 VS.所有/One Versus All/OVA Decomposition
+   * pro: efficient
+   * con: unbalanced for bigdata
+4. Multiclass via Binary Classification
+   * One versus one/OVO: 所有2分类器投票
+   * pro: efficient, stable
+   * con: more training, more space 
+## Nonlinear Transformation
+1. Quadratic Hypotheses
+   * 圆形可分 映射成 线性可分/特征转换
+   * Z空间直线-> X空间二次多项式/曲线
+2. Two choices
+   * feature transform
+   * linear model
