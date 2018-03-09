@@ -22,3 +22,11 @@
 1. Binary Classification:用Linear/Logistic Regression来做二分类
    * 线性回归用来初始化PLA/pocket/logistic regression的w_0
    * 人们偏向于logistic regression，而不是pocket
+2. Stochastic Grad. Descent
+   * stochastic gradient= true gradient+ zero-mean 'noise' directions
+   * after enough steps, average true gradient 约= aversge SGD
+   * pro: simple
+   * cons: less stable in nature
+   * SGD logistic regression 约= 'soft' PLA
+3. Multiclass via Logistic
+
