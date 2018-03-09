@@ -38,9 +38,14 @@
    * pro: efficient, stable
    * con: more training, more space 
 ## Nonlinear Transformation
-1. Quadratic Hypotheses
+1. Quadratic Hypothesis
    * 圆形可分 映射成 线性可分/特征转换
    * Z空间直线-> X空间二次多项式/曲线
 2. Two choices
    * feature transform
    * linear model
+3. Price of Nonlinear Transform
+   * Computation/Storage Price
+   * Model Complexity Price(参数个数)，VC Bound会增大
+4. Structured Hypothesis Sets: Hypothesis Sets有逐次包含的关系=nested
+5. 策略：从低维空间开始尝试，即先做线性，不好再加维度
