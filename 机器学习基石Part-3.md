@@ -35,4 +35,7 @@
 5. Report test result, not best validation result
 ## 3 Learning Principles
 1. Occam's Razor: the simplest model that fits the data is also the most plausible
-2. Sampling Bias
+2. Sampling Bias: if the data is sampled in a biased way, learning will produce a similarly biased outcome
+   * 'minor' VC assumption: data and testing both iid. from P
+   * match test scenario as much as possible
+3. Data snooping
