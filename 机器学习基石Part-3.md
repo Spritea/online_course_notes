@@ -25,3 +25,6 @@
    * noise越大，需要越大的regularization项
       * L2 Regularizer-Weighted Decay
       * L1 Regularizer-Sparsity in solution
+## Validation
+1. Model Selection: 最小化验证集误差
+2. Validation Set
