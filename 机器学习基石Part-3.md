@@ -27,4 +27,12 @@
       * L1 Regularizer-Sparsity in solution
 ## Validation
 1. Model Selection: 最小化验证集误差
-2. Validation Set
+2. Validation Set: k=N/5
+3. leave-one-out validation
+   * computation price
+   * stability
+4. V-fold cross validation: v=10
+5. Report test result, not best validation result
+## 3 Learning Principles
+1. Occam's Razor: the simplest model that fits the data is also the most plausible
+2. Sampling Bias
