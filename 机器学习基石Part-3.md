@@ -38,4 +38,10 @@
 2. Sampling Bias: if the data is sampled in a biased way, learning will produce a similarly biased outcome
    * 'minor' VC assumption: data and testing both iid. from P
    * match test scenario as much as possible
-3. Data snooping
+3. Data snooping/偷看资料
+   * if you torture the data long enough, it will confess :-)
+   * avoid making modeling decision by data
+   * interpret research results(including your own) by proper feeling of contamination
+4. Power of three   
+
+<sub>*完结撒花*</sub> 
