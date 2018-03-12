@@ -16,3 +16,6 @@
       * feature transform->较小E_in
       * VC维很小->较好泛化性能
 ## Dual SVM
+1. Motivation of Dual SVM
+   * Constrained to 'Unconstrained'
+   * Lagrange Dual Problem
