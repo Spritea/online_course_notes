@@ -30,5 +30,4 @@
 4. Gaussian kernal: RBF Kernal
    * large r：sharp Gaussian, overfit
    * warning: SVM can still overfit
-5. Compare kernals
-   * 
+5. Compare kernals: kernal 需满足Mercer's condition=kernal矩阵半正定（特征值非负）
