@@ -19,3 +19,16 @@
 1. Motivation of Dual SVM
    * Constrained to 'Unconstrained'
    * Lagrange Dual Problem
+   * use special solver
+2. SVM/PLA的w均可用data表示
+## Kernal SVM
+1. Kernal: Transform+ Inner Product
+2. Kernal trick: plug in efficient kernal function to avoid dependence on d^~
+3. General Poly-2 Kernal
+   * change of kernal-> change of margin definition
+   * genaral polynomial kernal
+4. Gaussian kernal: RBF Kernal
+   * large r：sharp Gaussian, overfit
+   * warning: SVM can still overfit
+5. Compare kernals
+   * 
