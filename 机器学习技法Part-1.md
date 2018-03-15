@@ -31,4 +31,9 @@
    * large r：sharp Gaussian, overfit
    * warning: SVM can still overfit
 5. Compare kernals: kernal 需满足Mercer's condition=kernal矩阵半正定（特征值非负）
+## Soft-Margin SVM
+## Kernal Logistic Regression
+1. SVM: L2 regularization
+2. SVM for Soft Binary Classification
+3. Kernal Logistic Regression: represent theorem on L2-regularized LogReg
 
