@@ -14,6 +14,6 @@
 1. Adaptive Boosting= weak base learning algorithm(student)+ optimal re-weighting factor(teacher)+ magic linear aggregation(class)
 2. AdaBoost-Stump: efficient feature selection and aggregation
 ## Decision Tree
-1. CART系列/C&RT: fully-growth tree with cnostant leaves that come from bi-branching by purifying 
+1. CART系列/C&RT/Classification and regression tree: fully-growth tree with cnostant leaves that come from bi-branching by purifying 
 2. regularization by pruning: pruned decision tree
 3. missing features: surrogate branch
