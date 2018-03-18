@@ -36,4 +36,7 @@
 1. SVM: L2 regularization
 2. SVM for Soft Binary Classification
 3. Kernal Logistic Regression: represent theorem on L2-regularized LogReg
+## Support Vector Regression
+1. Kernal ridge regression
+2. kernal ridge regression 换误差衡量=SVR
 
