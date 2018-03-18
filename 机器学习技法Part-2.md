@@ -10,3 +10,10 @@
 4. any blending/stacking, easily overfitted
 5. bootstrap aggregation/bagging
    * bagging works very well if base algorithm sensitive to data randomness
+## Adaptive Boosting
+1. Adaptive Boosting= weak base learning algorithm(student)+ optimal re-weighting factor(teacher)+ magic linear aggregation(class)
+2. AdaBoost-Stump: efficient feature selection and aggregation
+## Decision Tree
+1. CART系列/C&RT: fully-growth tree with cnostant leaves that come from bi-branching by purifying 
+2. regularization by pruning: pruned decision tree
+3. missing features: surrogate branch
