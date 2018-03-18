@@ -17,3 +17,8 @@
 1. CART系列/C&RT/Classification and regression tree: fully-growth tree with cnostant leaves that come from bi-branching by purifying 
 2. regularization by pruning: pruned decision tree
 3. missing features: surrogate branch
+4. C&AT
+   * divide and conquer/边分割边切
+   * even more efficient than AdaBoost-Stump
+   * C4.5
+## Random Forest
