@@ -38,3 +38,13 @@
 5. RF cons: may need lots of trees if the whole random process too unstable-should double-check stability of G to ensure enough trees
 ## Gradient Boosted Decision Tree
 1. Adaptive Boosted decision Tree
+   * AdaBoost-DTree: often via AdaBoost+ sampling+ DTree without modifying DTree
+   * weak DTree: **pruned** tree trained on **some** X_n to be weak
+      * pruned: usual pruning, or just limiting tree height
+      * some: sampling
+   * AdaBoost-DTree: often via AdaBoost+ sampling+ pruned DTree
+   * AdaBoost-Stump= special case of AdaBoost-DTree
+2. AdaBoost: steepest descent with approximate functional gradient
+   * AdaBoost: with binary-output hypothesis
+   * GradientBoost: with any hypothesis(usually real-output hypothesis)
+   * GradientBoost: allows extension to different err for regression/soft classification/etc
