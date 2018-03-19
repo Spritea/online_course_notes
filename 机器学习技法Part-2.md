@@ -48,3 +48,8 @@
    * AdaBoost: with binary-output hypothesis
    * GradientBoost: with any hypothesis(usually real-output hypothesis)
    * GradientBoost: allows extension to different err for regression/soft classification/etc
+3. GradientBoost for regression
+   * find g_t=h by regression with residuals
+   * alpha_t=optimal yita by g_t-transformed linear regression
+4. Gradient Boosted Decision Tree(GBDT): 'regression sibling' of AdaBoost-DTree-- popular in practice
+5. aggregation summary
