@@ -22,3 +22,19 @@
    * even more efficient than AdaBoost-Stump
    * C4.5
 ## Random Forest
+1. RF definition
+   * random forest= bagging+ fully-grown C&RT decision tree
+   * RF= bagging+ random-subspace C&RT
+   * RF=bagging+ random-combination C&RT
+   * randomness everywhere
+2. validation by Out-Of-Bag data
+3. feature selection
+   * permutation test: a general statistical tool for arbitrary non-linear models like RF
+   * RF feature selection via permutation+ OOB: often efficient and promising in practice
+4. RF in action
+   * 'smooth' and large-margin-like boundary with many trees
+   * 'easy yet robust' nonlinear model
+   * noise corrected by voting
+5. RF cons: may need lots of trees if the whole random process too unstable-should double-check stability of G to ensure enough trees
+## Gradient Boosted Decision Tree
+1. Adaptive Boosted decision Tree
