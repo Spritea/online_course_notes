@@ -10,3 +10,5 @@
 3. 不能把权重矩阵全部初始化为0，否则hidden layerde的nodes都一样了；初始化权重矩阵w为很小的正值，从而落在tanh/sigma激活函数的梯度较大部分
 ## 深层神经网络
 1. Hyperparameters-控制参数的参数: 调整它们，可得到不同的W和b
+# Improving Deep Neural Network
+
