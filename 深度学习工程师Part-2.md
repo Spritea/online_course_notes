@@ -26,4 +26,14 @@
 5. RMSprop(Hinton): root mean square prop
 6. Adam optimizaiton algorithm/Adaptive moment estimation= momentum+ RMSprop
 7. learning rate decay
-
+## Hyperparameter tuning
+1. 不要用grid采样，用random采样，能尝试更多不同的参数值/coarse to fine
+2. using an appropriate scale to pick hyperparameters
+   * appropriate scale for hyperparameters
+   * hyperparameters for exponentially weighted acerages
+3. Batch Normalization
+   * 归一化输入层和隐藏层
+   * 固定z的均值和方差，从而限制前面的参数更新会影响数值分布的程度，提高各层的独立性，提高训练效率
+   * similar to dropout，轻微正则化作用
+   * 训练时，只对mini-batch起作用
+   * 用exp wei ave结合训练集中每个mini-batch的均值，方差来对测试集中的均值和方差进行估计
