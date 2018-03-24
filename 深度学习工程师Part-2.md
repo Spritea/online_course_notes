@@ -37,3 +37,4 @@
    * similar to dropout，轻微正则化作用
    * 训练时，只对mini-batch起作用
    * 用exp wei ave结合训练集中每个mini-batch的均值，方差来对测试集中的均值和方差进行估计
+4. Softmax-多分类问题，输出层
