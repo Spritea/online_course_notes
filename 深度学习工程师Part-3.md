@@ -15,3 +15,9 @@
    * decrease Avoidable bias
       * train bigger model
       * train longer/better optimization algorithms
+      * NN architecture/hyperparameters search
+   * decrease variance
+      * more data
+      * regularization
+      * NN architecture/hyperparameters search
+7. Carrying out error analysis
