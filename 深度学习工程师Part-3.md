@@ -25,4 +25,7 @@
    * clean up incorrectly labeled data
       * DL algorithms are quite robust to **random errors** in the **training set**
       * compare **overall dev set error** with **errors due to incorrect labels**/ **errors due to other causes**, then decide whether to fix error labels in dev set, especially when the overall dev set error >> difference between different models, and *errors due incorrect labels* take a large percent of dev set error 
-    
+8. Project guidline(做工程): Build your first system quickly, then iterate
+9. Training and testing on different distributions
+   * add *data from webpages* and *data from mobile app* together as the whole training set, dev/test set are randomly sampled from training set. Then dev set contains only a few target images, which is bad for evaluating wanted model. **Bad choice**
+   * add *data from webpages* and **half** of *data from mobile app* together as the whole training set, dev/test set are all from *data from mobile app*. Now you're aiming the taregt where you want it to be.
