@@ -36,3 +36,29 @@
    * training set error is close to training-dev set error, but training-dev set error<< dev set error: **data mismatch problem**
    * training error, training-dev error and dev error are close, but training error>> human error: **bias problem**
    * difference between dev error and test error is large: **overfit to dev set**, need a bigger dev set
+5. Addressing data mismatch
+   * do manual error analysis to try to understand difference between training and dev/test sets
+   * make training data more similar; or collect more data similar to dev/test sets: **artificial data synthesis**, may overfit to a small set
+6. Transfer learning
+   * pretrain on other big datasets, to learn low level features
+   * retrain the last layer-finetune
+   * when transfer learning makes sense
+      * Task A and B have the same input x
+      * You have a lot more data for Task A than Task B
+      * Low level features from A could be helpful for learning B
+7. Multitask learning
+   * one image may have muitiple labels
+   * when multi-task learning makes sense
+      * Training on a set of tasks that could benefit from having shared lower-level features
+      * Usually: Amount of data you have for each task is quite similar, then data from other classes are bigger than any one class, fulfill transfer learning
+      * Can train a **big enough** neural nerwork to do well on all the tasks
+8. What is end-to-end learning  
+   Pros
+   * let the data speak
+   * less hand-designing of components needed     
+   
+   Cons
+   * May need large amount of data
+   * Excludes potentially useful hand-designed components   
+
+   Key question: Do you have **sufficient data** to learn a function of the complexity needed to map x to y
