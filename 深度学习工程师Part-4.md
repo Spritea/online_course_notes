@@ -17,3 +17,6 @@
 5. One layer of a convolutional network
    * 输入图像与各个filter卷积，加常数，再做ReLU，再把各个输出叠起来，便是经过了一层卷积
    * layer types in CNN: Conv,Pool,FC
+6. Pooling layer
+   * Max pooling-参数：filter size+stride,p=0,不用通过BP来确定，设计模型的时候就定下来了，输出=取矩阵中最大值
+   * Average pooling: less use
