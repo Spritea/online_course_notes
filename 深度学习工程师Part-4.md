@@ -44,4 +44,5 @@
 4. transfer learning: larger data, more layers to train/只用权重做初始化，然后全部重新训练
 5. data augmentation
    * mirroring, random cropping
-   * color shifting
+   * color shifting/RGB: PCA color augmentation-AlexNet
+   * implemente distortions during training: use CPU thread to do data augmentation, 从而和GPU训练并行
