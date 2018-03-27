@@ -20,3 +20,7 @@
 6. Pooling layer
    * Max pooling-参数：filter size+stride,p=0,不用通过BP来确定，设计模型的时候就定下来了，输出=取矩阵中最大值
    * Average pooling: less use
+7. why convolutions
+   * parameter sharing:A feature detector(such as a vertical edge detector) that's useful in one part of the image is probably useful in another part of the image
+   * sparsity of connections:In each layer, each output value depends only on a small number of inputs
+   * 具有平移不变性
