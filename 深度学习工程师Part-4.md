@@ -24,3 +24,24 @@
    * parameter sharing:A feature detector(such as a vertical edge detector) that's useful in one part of the image is probably useful in another part of the image
    * sparsity of connections:In each layer, each output value depends only on a small number of inputs
    * 具有平移不变性
+## CNN cases
+1. classic networks
+   * LeNet-5: conv+ pool+ conv+ pool+ fc+ fc+ output, 60k parameters
+   * AlexNet: ReLU, multiple GPUs, local response normalization, 60mill parameters
+   * VGG-16: 2* Conv 64+ pool+ 2* Conv 128+ pool+ 3* Conv 256+ pool+ 3* Conv 512+ pool+ 3* Conv512+ pool+ fc 4096+ fc 4096+ softmax 1000, 138mill parameters
+   * Res Net: skip connection/residual block
+      * identity function is easy for Residual block to learn, so it doesn't hurt performance
+2. 1x1 Conv/Network in Network: could shrink channel number
+3. Inception network motivation
+   * choose layer automaticly
+   * 1 inception module 
+      * 4 paths
+      * previous avtivation(pa)+ 1x1 conv
+      * pa+ 1x1 conv+ 3x3 conv
+      * pa+ 1x1 conv+ 5x5 conv
+      * pa+ maxpool(same)+ 1x1 conv
+      * add 4 outpus together= channel concat
+4. transfer learning: larger data, more layers to train/只用权重做初始化，然后全部重新训练
+5. data augmentation
+   * mirroring, random cropping
+   * color shifting
