@@ -52,4 +52,12 @@
 ## Object detection
 1. classification with localization
 2. landmark detection
-3. object detection: sliding windows detection
+3. object detection
+   * sliding windows detection- too slow/coarse
+   * convolutional implementation of sliding windows
+      * Turning FC layer into convolutional layers
+      * Convolutional implementation of sliding windows
+   * Bounding box predictions
+      * output accurate bounding boxes: YOLO
+   * Intersection over union>= 0.5-> correct
+
