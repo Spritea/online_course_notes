@@ -46,3 +46,10 @@
    * mirroring, random cropping
    * color shifting/RGB: PCA color augmentation-AlexNet
    * implemente distortions during training: use CPU thread to do data augmentation, 从而和GPU训练并行
+6. tricks for benchmarks/not for building production systems
+   * Ensembling: Train several networks independently and average their outputs
+   * Multi-crop at test time: Run classifier on multiple versions of test images and average results
+## Object detection
+1. classification with localization
+2. landmark detection
+3. object detection: sliding windows detection
