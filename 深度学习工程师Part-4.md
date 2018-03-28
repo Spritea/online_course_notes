@@ -73,5 +73,5 @@
 ## Face recognition
 1. Faceverification vs. face recognition
 2. one-shot learning
-  * Learning a "similarity" function
+  * Learning a "similarity" function: degree of difference between images
 
