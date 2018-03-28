@@ -58,6 +58,20 @@
       * Turning FC layer into convolutional layers
       * Convolutional implementation of sliding windows
    * Bounding box predictions
-      * output accurate bounding boxes: YOLO
-   * Intersection over union>= 0.5-> correct
+      * output accurate bounding boxes: **YOLO**
+        * Intersection over union>= 0.5-> correct
+        * non-max suppression example
+        * anchor box: overlapping objects
+   * Region proposal- RCNN
+     * R-CNN
+       * 先用分割算法过一遍，再对分割结果中的物体作检测
+       * Propose regions. Classify proposed regions one at a time. Output label+ bounding box-Slow
+      * Fast R-CNN
+        * Propose regions. Use convolution implementation of sliding windows to classify all the proposed regions
+      * Faster R-CNN
+        * Use convolutional network to propose regions
+## Face recognition
+1. Faceverification vs. face recognition
+2. one-shot learning
+  * Learning a "similarity" function
 
