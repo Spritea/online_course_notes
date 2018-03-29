@@ -73,9 +73,9 @@
 ## Face recognition
 1. Faceverification vs. face recognition
 2. one-shot learning
-  * Learning a "similarity" function: degree of difference between images
-  * Siamese network
-  * Triplet loss
+   * Learning a "similarity" function: degree of difference between images
+   * Siamese network
+   * Triplet loss
 3. Face verification and binary classification
 ## Neural Style Transfer
 1. Visualizing CNN
